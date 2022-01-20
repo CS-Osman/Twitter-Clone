@@ -37,7 +37,7 @@
     </div>
   </div> <!--end dev conatier -->
 
-  <div class="bg-[url('/img/tailwind_bg.jpeg')] h-64"></div> <!--bg img -->
+  <div class="bg-[url('/img/tailwind_bg.jpeg')] h-64 container mx-auto"></div> <!--bg img -->
 
   <div class="bg-white shadow mt-1">
     <div class="container mx-auto flex items-center relative bg-gray-100">

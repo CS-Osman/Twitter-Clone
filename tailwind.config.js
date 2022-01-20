@@ -17,7 +17,10 @@ module.exports = {
                 'hero': "url('/img/My-header.jpeg')",
                 'hero-pattern': "url('/img/hero-pattern.svg')",
                 'footer-texture': "url('/img/footer-texture.png')",
-            }
+            },
+            width: {
+                '128': '32rem',
+            },
         },
     },
 

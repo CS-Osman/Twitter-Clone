@@ -20,10 +20,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/youtube', function () {
+    return view('youtube');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
-
-
 
 require __DIR__.'/auth.php';
